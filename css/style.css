@@ -9,7 +9,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-h1{
+h1,
+h2{
     margin: 0;
 }
 
@@ -38,6 +39,7 @@ header .container {
     justify-content: center;
     align-items: center;
     height: 550px;
+    background-size: cover;
     background-image: url('/assets/images//background.jpg');
 }
 
@@ -85,5 +87,44 @@ header .container {
 }
 
 .presentation p {
+    color: #E1E1E1;
+}
+
+.description {
+    background-color: #E1E1E1;
+}
+
+.description .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.text-description {
+    width: 850px;
+}
+
+.image-athlectic{
+    position: absolute;
+    right: 58px;
+    bottom: 0;
+    top: -131px;
+}
+
+.plain {
+    background-color: #000000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.text-plain {
+    text-align: center;
+}
+
+.text-plain h2 {
+    color: #E1E1E1;
+}
+
+.text-plain p {
     color: #E1E1E1;
 }
