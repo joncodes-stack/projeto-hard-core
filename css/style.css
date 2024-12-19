@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Teko", serif;
 }
 
 .container {
@@ -8,10 +9,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+h1{
+    margin: 0;
+}
 
 header {
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #000000;
 }
 
@@ -22,6 +26,64 @@ header .container {
 }
 
 .menu a {
-    margin-left: 40px;
+    margin-left: 111px;
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-image: url('/assets/images//background.jpg');
+}
+
+.hero h1{
+    line-height: 90%;
+    text-align: center;
+    color: #E1E1E1;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+.hero p {
+    line-height: 120%;
+    text-align: center;
+    color: #E1E1E1;
+    font-size: 24px;
+}
+
+.hero a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    background-color: #B91F33;
+    color: #E1E1E1;
+    text-decoration: none;
+}
+
+.image-presentation img {
+    margin-right: 20px;
+}
+
+.presentation-description {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+
+.presentation h2 {
+    color: #E1E1E1;
+}
+
+.presentation p {
+    color: #E1E1E1;
 }
