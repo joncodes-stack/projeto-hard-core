@@ -10,7 +10,8 @@ body {
     margin-right: auto;
 }
 h1,
-h2{
+h2,
+h3{
     margin: 0;
 }
 
@@ -94,6 +95,12 @@ header .container {
     background-color: #E1E1E1;
 }
 
+.text-presentation h2{
+    font-size: 40px;
+    font-weight: bold;
+    width: 558;
+}
+
 .description .container {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -104,11 +111,14 @@ header .container {
     width: 850px;
 }
 
+.text-description p{
+    color: #666666;
+}
 .image-athlectic{
     position: absolute;
     right: 58px;
     bottom: 0;
-    top: -131px;
+    top: -130px;
 }
 
 .plain {
@@ -117,14 +127,88 @@ header .container {
     padding-bottom: 70px;
 }
 
-.text-plain {
+.text-plan {
     text-align: center;
 }
 
-.text-plain h2 {
+.text-plan h2 {
+    color: #E1E1E1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-plan p {
     color: #E1E1E1;
 }
 
-.text-plain p {
+.card-plan {
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    outline-style: solid;
+    outline-color: #E1E1E1;
+    outline-width: thin;
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
     color: #E1E1E1;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card p {
+    color: #E1E1E1;
+}
+
+.card span {
+    color: #E1E1E1;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.card li {
+    color: #E1E1E1;
+    text-align: start;
+    padding-left: 10px;
+}
+
+
+.card a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #B91F33;
+    color: #E1E1E1;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.contact {
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact p{
+    color: #E1E1E1;
+    font-size: 18px;
+}
+
+.contact h2{
+    color: #E1E1E1;
+    font-size: 40px;
+    font-weight: bold;
 }
